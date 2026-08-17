@@ -1,0 +1,18 @@
+2026-08-12 15:09:22,385 - INFO - Project Started
+2026-08-12 15:09:22,385 - INFO - Dataset Loaded Successfully
+2026-08-12 15:09:22,386 - INFO - Data Inserted into MySQL
+2026-08-12 15:09:22,386 - INFO - EDA Completed
+2026-08-12 15:09:22,387 - INFO - Visualizations Completed
+2026-08-12 15:09:22,387 - INFO - Machine Learning Model Trained
+2026-08-12 15:28:51,567 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-324' coro=<_async_in_context.<locals>.run_in_context() running at C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\ipykernel\utils.py:60> wait_for=<Task finished name='Task-325' coro=<Kernel.shell_main() done, defined at C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\ipykernel\kernelbase.py:597> exception=KeyError('d3877ba2-33f4-4dc9-a68d-6b3c5e124d00')> cb=[ZMQStream._run_callback.<locals>._log_error() at C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\zmq\eventloop\zmqstream.py:563]>
+2026-08-12 15:28:51,568 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-325' coro=<Kernel.shell_main() done, defined at C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\ipykernel\kernelbase.py:597> exception=KeyError('d3877ba2-33f4-4dc9-a68d-6b3c5e124d00')>
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\ipykernel\kernelbase.py", line 608, in shell_main
+    asyncio_lock = self.shell_channel_thread.manager.get_subshell_asyncio_lock(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\ipykernel\subshell_manager.py", line 117, in get_subshell_asyncio_lock
+    return self._cache[subshell_id].asyncio_lock
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'd3877ba2-33f4-4dc9-a68d-6b3c5e124d00'
