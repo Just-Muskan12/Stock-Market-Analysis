@@ -1,4 +1,4 @@
-# 📈 Stock Market Analysis & Prediction
+# 📈 Stock Market Analysis 
 
 > **An end-to-end Python project for analyzing historical stock-market data, discovering trends, performing statistical analysis, visualizing technical indicators, and predicting closing prices using Machine Learning.**
 
@@ -442,7 +442,7 @@ Stock-market data is volatile, and machine-learning predictions cannot guarantee
 
 # 👩‍💻 Author
 
-## Muskan Sharma
+## Muskan 
 
 **MCA | Python | Data Analysis | SQL | Machine Learning**
 
